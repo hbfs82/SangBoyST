@@ -295,16 +295,16 @@ private Map parseNonIasButtonMessage(Map descMap)
               switch(descMap.sourceEndpoint) 
               {
                  case "01":
-                    buttonNumber = 3 //1
+                    buttonNumber = 1 //1
                     break
                  case "02":
-                    buttonNumber = 4 //2
+                    buttonNumber = 2 //2
                     break
                  case "03":
-                    buttonNumber = 2 //3
+                    buttonNumber = 3 //3
                     break        
                  case "04":
-                    buttonNumber = 1 //4
+                    buttonNumber = 4 //4
                     break          
               }
           }
